@@ -3,6 +3,7 @@
 * [x] 스킨 인 더 게임 (Skin in the Game)
 * [x] 2020-08-23, Linked Data
 * [x] 2020-08-25, [Dynamic Metadata Management for Petabyte-Scale File Systems (SC'04)](https://www.ssrc.ucsc.edu/media/pubs/bd2de7db1009211e56e1aa1ff91c53782c1e468a.pdf)
+* [ ] Spring in Action, 5th ed.
 * [ ] 개발 7년차, 매니저 1일차
 * [ ] Database System Concepts, 5th ed, Silberschatz and et al.
   * [ ] Ch. 1 Introduction
