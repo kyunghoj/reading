@@ -1,4 +1,20 @@
+# Reading List
+
+## 2021
+
+### 책
+
+* [ ] 성취 습관
+* [ ] 개발 7년차, 매니저 1일차
+* [ ] A Philosophy of Software Design
+* [ ] Database Reliability Engineering
+* [ ] Python for Data Analysis
+* [ ] Spring in Action, 5th ed.
+* [ ] Database System Concepts, 5th ed, Silberschatz and et al.
+
 ## 2020
+
+### 책
 
 * [x] The Hard Thing about Hard Things
 * [x] 오를 지역만 짚어주는 부동산 투자 전략
@@ -10,18 +26,21 @@
 * [x] 3초간 (the law of the garbage truck)
 * [x] Introducing Go
 * [x] 2020-08-23, Linked Data
-* [x] 2020-08-25, [Dynamic Metadata Management for Petabyte-Scale File Systems (SC'04)](https://www.ssrc.ucsc.edu/media/pubs/bd2de7db1009211e56e1aa1ff91c53782c1e468a.pdf)
 * [x] 2020-09-27, 서로를 이해하기 위하여
 * [x] 2020-10-08, 수비의 기술
 * [x] 2020-11-10, [직업의 지리학](https://github.com/kyunghoj/reading/wiki/%EC%A7%81%EC%97%85%EC%9D%98-%EC%A7%80%EB%A6%AC%ED%95%99)
 * [x] 2020-11-11, [일하는 마음](https://github.com/kyunghoj/reading/wiki/%EC%9D%BC%ED%95%98%EB%8A%94-%EB%A7%88%EC%9D%8C)
-* [x] 2020-11-21, [Time, Clocks, and the Ordering of Events in a Distributed System]()
 * [x] 2020-12-11, 디퓨징
 * [x] 2020-12-31, Foundations for Architecting Data Solutions
 
+### 논문
+
+* [x] 2020-08-25, [Dynamic Metadata Management for Petabyte-Scale File Systems (SC'04)](https://www.ssrc.ucsc.edu/media/pubs/bd2de7db1009211e56e1aa1ff91c53782c1e468a.pdf)
+* [x] 2020-11-21, [Time, Clocks, and the Ordering of Events in a Distributed System]()
+
+
 * [ ] Python for Data Analysis
 * [ ] Spring in Action, 5th ed.
-* [ ] 개발 7년차, 매니저 1일차
 * [ ] Database System Concepts, 5th ed, Silberschatz and et al.
   * [ ] Ch. 1 Introduction
   * [ ] Ch. 2 Relational Model
@@ -40,11 +59,10 @@
   * [ ] Ch. 15 Transactions
   * [ ] Ch. 16 Concurrency Control
   * [ ] Ch. 17 Recovery System
-* [ ] A Philosophy of Software Design
-* [ ] Database Reliability Engineering
+
 * [ ] 마음을 다루면 자녀의 미래가 달라진다
 * [ ] 알고리즘 문제 해결 전략 1
-* [ ] 성취 습관
+
 
 ## 2019
 
