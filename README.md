@@ -1,11 +1,23 @@
 ## 2020
 
 * [x] The Hard Thing about Hard Things
+* [x] 오를 지역만 짚어주는 부동산 투자 전략
 * [x] 스킨 인 더 게임 (Skin in the Game)
+* [x] 20대에 시작하는 자산관리 프로젝트
+* [x] 화에 대하여
+* [x] 잃어버리지 못하는 아이들
+* [x] 3초간 (the law of the garbage truck)
+* [x] Introducing Go
 * [x] 2020-08-23, Linked Data
 * [x] 2020-08-25, [Dynamic Metadata Management for Petabyte-Scale File Systems (SC'04)](https://www.ssrc.ucsc.edu/media/pubs/bd2de7db1009211e56e1aa1ff91c53782c1e468a.pdf)
+* [x] 2020-09-27, 서로를 이해하기 위하여
+* [x] 2020-10-08, 수비의 기술
 * [x] 2020-11-10, [직업의 지리학](https://github.com/kyunghoj/reading/wiki/%EC%A7%81%EC%97%85%EC%9D%98-%EC%A7%80%EB%A6%AC%ED%95%99)
+* [x] 2020-11-11, [일하는 마음](https://github.com/kyunghoj/reading/wiki/%EC%9D%BC%ED%95%98%EB%8A%94-%EB%A7%88%EC%9D%8C)
+* [x] 2020-11-21, [Time, Clocks, and the Ordering of Events in a Distributed System]()
 * [x] 2020-12-11, 디퓨징
+* [x] 2020-12-31, Foundations for Architecting Data Solutions
+
 * [ ] Python for Data Analysis
 * [ ] Spring in Action, 5th ed.
 * [ ] 개발 7년차, 매니저 1일차
