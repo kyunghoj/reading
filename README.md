@@ -1,16 +1,39 @@
 # Reading List
 
-## 2021
+## 2024
 
-### 책
-
+### 커리어 관리
+* [X] 커리어 스킬
 * [ ] 성취 습관
 * [ ] 개발 7년차, 매니저 1일차
-* [ ] A Philosophy of Software Design
+
+### 프로그래밍 기초
+* [X] 혼자 공부하는 파이썬
+* [ ] 파이썬 알고리즘 인터뷰
+* [ ] 진지한 파이썬
+* [ ] 누워서 읽는 알고리즘
+* [ ] 처음 배우는 데이터 과학
+
+### 프로그래밍 고급
+* [ ] Working Effectively with Legacy Code
+* [ ] Java Concurrency in Practice
+* [ ] CPython 파헤치기
+
+### 데이터베이스
 * [ ] Database Reliability Engineering
-* [ ] Python for Data Analysis
-* [ ] Spring in Action, 5th ed.
 * [ ] Database System Concepts, 5th ed, Silberschatz and et al.
+* [ ] 데이터베이스 인터널스
+* [ ] Designing Data-Intensive Applications
+
+### 네트워킹
+* [ ] High Performance Browser Networkinig
+
+### Prod/Proj Management
+* [ ] 프로덕트 매니지먼트
+* [ ] 스크럼과 XP
+* [ ] 불확실성과 화해하는 프로젝트 추정과 계획
+* [X] 개발 함정을 탈출하라
+* [ ] 로지컬 씽킹
 
 ## 2020
 
