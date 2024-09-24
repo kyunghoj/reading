@@ -24,9 +24,14 @@
 * [ ] Database System Concepts, 5th ed, Silberschatz and et al.
 * [ ] 데이터베이스 인터널스
 * [ ] Designing Data-Intensive Applications
+* [ ] Cassandra: The Definitive Guide
 
-### 네트워킹
+### System/OS/네트워킹
 * [ ] High Performance Browser Networkinig
+* [ ] Operating System Concepts
+* [ ] CS:APP
+* [ ] How Linux Works
+* [ ] Production Kubernetes
 
 ### Prod/Proj Management
 * [ ] 프로덕트 매니지먼트
