@@ -122,7 +122,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 chunk_size = 300
 chunk_overlap = 50
 text_splitter = RecursiveCharacterTextSplitter(
-    separators=["\n\n", "\n", ","],
+    separators=["\n\n", "\n", " "", ""],
     chunk_size=chunk_size,
     chunk_overlap=chunk_overlap,
     length_function=len,
@@ -136,4 +136,50 @@ chunks = text_splitter.create_documents(
 )
 
 print(chunks[0])
+```
+
+Chunking logic 을 함수로 만들어서 `flat_map` 에 태운다.
+
+```python
+def chunk_section(section, chunk_size, chunk_overlap):
+    text_splittr = RecursiveCharacterTextSplitter(
+        separators=["\n\n", "\n", " ", ""],
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
+        length_function=len
+    )
+    chunks = text_splitter.create_documents(
+        texts=[sample_section["text"]],
+        metadatas=[{"source": sample_section["source"]}]
+    )
+    return [{"text": chunk.page_content, "source": chunk.metadata["source"]} for chunk in chunks]
+
+# Scale chunking
+
+chunks_ds = sections_ds.flat_map(partial(
+    chunk_section,
+    chunk_size=chunk_size,
+    chunk_overlap=chunk_overlap
+))
+print(f"{chunks_ds.count()} chunks")
+chunks_ds.show(1)
+```
+
+(Note: 실제 작동하는 Jupyter Notebook의 코드를 다시 확인해야 함. 빠진 것들이 보인다.)
+
+### Embed data
+
+* 작은 chunk들을 만들었으니, 이제 주어진 질의에 대해 가장 relevant 한 것이 무엇인지 찾아야 함
+* A very effective and quick method is to embed our data using a pretrained model and use 
+  the same model to embed the query
+* We can then compute the distance between all of the chunk embeddings and our query
+  embedding to determine the top-k chunks
+* embedding을 위한 pretrained 모델은 많다. HuggingFace의 Massive Text Embedding Benchmark (MTEB)를
+  참고하여 인기있는 것들을 찾을 수 있다.
+* We can leverage this to represent our data and identify the most relevant contexts
+  to answer a given query
+* Langchain의 [`HuggingFaceEmbeddings`](https://t.ly/uXRVh) 또는
+  [OpenAIEmbeddings]()을 이용하여 모델을 로드하고 우리의 문서 chunk를 embed 할 수 있다
+    * `HuggingFaceEmbeddings`는 [SBERT](https://sbert.net/) 를 사용하는 것으로 보임
+
 
